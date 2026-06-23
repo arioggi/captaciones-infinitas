@@ -5,24 +5,24 @@ import CTAButton from './CTAButton';
 const bonos = [
   {
     numero: '#1',
-    titulo: 'Caja de Herramientas del Flipper',
+    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
     img: '/assets/bonos/01_bonus.png',
     descripcion:
-      'Acceso completo a contratos, checklists, plantillas de Excel, calculadoras de rentabilidad y guías paso a paso. 15 recursos descargables.',
+      'Aprende a construir una inmobiliaria profesional y escalable. Basado en el Ciclo Inmobiliario completo: estructura interna, procesos operativos, liderazgo, finanzas y marco legal.',
   },
   {
     numero: '#2',
-    titulo: 'Plan de Negocios para Inversionistas',
+    titulo: 'IANGE 360™',
     img: '/assets/bonos/02_bonus.png',
     descripcion:
-      'Plan de negocios completo listo para presentar a inversionistas privados. Levanta capital sin usar tu propio dinero y arranca tu primera operación en menos de 30 días.',
+      'Ecosistema inmobiliario que integra captación, marketing, seguimiento, operación, administración, automatización e IA en una sola plataforma. Para captar más con menos esfuerzo operativo.',
   },
   {
     numero: '#3',
-    titulo: 'Comunidad WhatsApp Exclusiva',
+    titulo: 'Comunidad de WhatsApp para Dudas y Estrategias',
     img: '/assets/bonos/03_bonus.png',
     descripcion:
-      'Comunidad privada con +4,605 alumnos activos donde compartimos oportunidades, validamos operaciones y resolvemos dudas todos los días.',
+      'Comunidad activa 24/7 con +4,605 miembros. Resuelve dudas en tiempo real, aprende estrategias probadas, comparte casos reales y crece junto a asesores inmobiliarios como tú.',
   },
 ];
 
@@ -73,10 +73,10 @@ export default function ResumenFinal() {
           className="max-w-3xl flex flex-col gap-4 text-[#B8B8B8] leading-relaxed"
           style={{ fontSize: 'clamp(1rem, 2.2vw, 1.15rem)' }}
         >
-          <p>Así que eres igual que yo, bajando directamente hasta el final.</p>
+          <p>Así que bajaste directamente hasta el final.</p>
           <p>
-            Lo entiendo, eres un inversionista que quiere ir al grano y empezar a generar
-            utilidades reales con bienes raíces.
+            Lo entiendo. Eres un profesional inmobiliario que quiere ir al grano y
+            construir un sistema real de captación.
           </p>
           <p className="text-white font-bold">
             Este es el resumen de lo que obtienes por solo ${CONFIG.PRECIO_ACTUAL} USD:
@@ -93,7 +93,7 @@ export default function ResumenFinal() {
         >
           <img
             src="/assets/stack/lo_que_obtienes.png"
-            alt="Todo lo que obtienes con Fórmula Flipping"
+            alt="Todo lo que obtienes con Captaciones Infinitas IA System"
             className="w-full h-auto rounded-2xl"
             style={{ filter: 'drop-shadow(0 0 60px rgba(255,107,26,0.25))' }}
             onError={(e) => { e.target.style.display = 'none'; }}
@@ -133,7 +133,7 @@ export default function ResumenFinal() {
                 <div className="flex flex-col gap-4 text-[#1A1A1A] text-base md:text-lg leading-relaxed">
                   <p>{bono.descripcion}</p>
                   <p className="text-[#FF6B1A] font-bold mt-2">
-                    Recibes esto cuando compras tu copia de "Fórmula Flipping" hoy.
+                    Incluido en tu acceso a Captaciones Infinitas IA System hoy.
                   </p>
                 </div>
 
@@ -163,8 +163,8 @@ export default function ResumenFinal() {
           className="flex flex-col items-center gap-2 text-[#B8B8B8] text-sm"
         >
           <p>
-            Fórmula Flipping™ funciona en{' '}
-            <strong className="text-white">cualquier ciudad de México y LATAM</strong>
+            Aplica en{' '}
+            <strong className="text-white">cualquier mercado inmobiliario</strong>
           </p>
           <p>
             Disponibilidad:{' '}

@@ -33,7 +33,7 @@ export const trackCustom = (eventName, params = {}) => {
  */
 export const trackCheckout = () => {
   const params = {
-    content_name: 'Fórmula Flipping',
+    content_name: 'Captaciones Infinitas IA System',
     content_category: 'Curso',
     value: CONFIG.PRECIO_ACTUAL,
     currency: CONFIG.MONEDA,

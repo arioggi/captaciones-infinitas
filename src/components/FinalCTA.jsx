@@ -40,14 +40,10 @@ export default function FinalCTA() {
           className="font-bebas text-white leading-tight mb-10"
           style={{ fontSize: 'clamp(2rem, 7vw, 5.5rem)' }}
         >
-          ¿VAS A SEGUIR VIENDO COMO
-          <br />
-          <span className="text-[#B8B8B8]">OTROS GENERAN RIQUEZA</span>
-          <br />
-          CON BIENES RAÍCES
+          LA DIFERENCIA NO ES LA SUERTE.
           <br />
           <span className="text-[#FF6B1A]" style={{ textShadow: '0 0 40px rgba(255,107,26,0.6)' }}>
-            MIENTRAS TÚ TE QUEDAS DONDE ESTÁS?
+            ES TENER UN SISTEMA.
           </span>
         </motion.h2>
 
@@ -60,9 +56,10 @@ export default function FinalCTA() {
           className="text-[#B8B8B8] max-w-2xl mx-auto leading-relaxed mb-12"
           style={{ fontSize: 'clamp(1rem, 2.5vw, 1.2rem)' }}
         >
-          Entra hoy a <strong className="text-white">Fórmula Flipping</strong> y empieza a
-          cambiar tu vida financiera{' '}
-          <strong className="text-[#FF6B1A]">hoy mismo.</strong>
+          La diferencia entre un asesor promedio y uno que domina el mercado no es la suerte.
+          Es tener un sistema. Cuando combinas metodología, Inteligencia Artificial y automatización,
+          las captaciones dejan de depender del azar.{' '}
+          <strong className="text-[#FF6B1A]">Se convierten en un sistema.</strong>
         </motion.p>
 
         {/* CTA */}

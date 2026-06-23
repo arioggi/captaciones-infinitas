@@ -3,7 +3,7 @@ import { CONFIG } from '../config/constants';
 import { trackCheckout } from '../lib/tracking';
 
 export default function CTAButton({
-  label = 'SÍ, QUIERO ACCESO INSTANTÁNEO A FÓRMULA FLIPPING',
+  label = 'SÍ, QUIERO ACCESO A CAPTACIONES INFINITAS IA SYSTEM',
   sublabel = null,
   className = '',
 }) {

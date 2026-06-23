@@ -6,13 +6,13 @@ const sellos = [
     src: '/assets/sellos/7_dias.png',
     alt: 'Garantía de devolución 7 días',
     label: 'GARANTÍA DE 7 DÍAS',
-    sublabel: 'Devolución total si no te encanta',
+    sublabel: 'Sin riesgo. Si no es para ti, te devolvemos el 100%.',
   },
   {
     src: '/assets/sellos/alumnos_satisfechos.png',
-    alt: `+${CONFIG.TOTAL_ALUMNOS} alumnos satisfechos`,
+    alt: `+${CONFIG.TOTAL_ALUMNOS} alumnos`,
     label: `+${CONFIG.TOTAL_ALUMNOS} ALUMNOS`,
-    sublabel: 'Comunidad activa que ya invierte',
+    sublabel: 'Comunidad activa de profesionales inmobiliarios',
   },
   {
     src: '/assets/sellos/acceso_inmediato.png',

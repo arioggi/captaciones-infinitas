@@ -76,7 +76,7 @@ export default function Hero({ onUnlock, isUnlocked }) {
         >
           <img
             src="/assets/logos/formula_flipping_logo.png"
-            alt="Fórmula Flipping"
+            alt="Captaciones Infinitas IA System"
             className="h-24 md:h-36 object-contain"
             onError={(e) => { e.target.style.display = 'none'; }}
           />
@@ -94,12 +94,11 @@ export default function Hero({ onUnlock, isUnlocked }) {
             className="font-bebas text-white leading-none"
             style={{ fontSize: 'clamp(2.8rem, 9vw, 7rem)' }}
           >
-            MIRA EL VIDEO COMPLETO
-            <br />
-            PARA{' '}
+            CAPTA MÁS PROPIEDADES CON UN SISTEMA DE{' '}
             <span className="text-[#FF6B1A]" style={{ textShadow: '0 0 40px rgba(255,107,26,0.5)' }}>
-              DESBLOQUEAR
+              INTELIGENCIA ARTIFICIAL
             </span>
+            , MÉTODO INMOBILIARIO Y AUTOMATIZACIÓN
           </motion.h1>
         </motion.div>
 
@@ -137,10 +136,10 @@ export default function Hero({ onUnlock, isUnlocked }) {
           className="max-w-2xl mx-auto"
         >
           <p className="text-[#B8B8B8] text-base md:text-lg leading-relaxed">
-            🔥 <strong className="text-white">DALE PLAY</strong> y descubre cómo la{' '}
-            <strong className="text-[#FF6B1A]">FÓRMULA FLIPPING</strong> genera{' '}
-            <strong className="text-white">+$50,000.00 USD mensuales</strong> a través de una
-            metodología probada.
+            🔥 <strong className="text-white">DALE PLAY</strong> y descubre cómo dejar de buscar
+            propiedades de manera improvisada y construir un sistema capaz de generar oportunidades
+            de captación de forma{' '}
+            <strong className="text-[#FF6B1A]">constante, profesional y escalable</strong>.
           </p>
 
           <motion.div

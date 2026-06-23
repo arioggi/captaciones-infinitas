@@ -2,67 +2,62 @@ import { motion } from 'framer-motion';
 import CTAButton from './CTAButton';
 
 const beneficios = [
-  'Cómo encontrar propiedades con potencial de flipping en cualquier ciudad de México (sin tener experiencia previa)',
-  'Cómo levantar capital de inversionistas privados para arrancar tus operaciones SIN usar tu propio dinero',
-  'Cómo negociar precios por debajo del valor de mercado usando técnicas probadas en +1,000 operaciones',
-  'Cómo remodelar estratégicamente para maximizar la utilidad por operación entre $30,000 y $80,000 USD',
+  'Más propiedades captadas con un proceso estructurado y predecible',
+  'IA aplicada a cada etapa: prospección, perfilamiento, seguimiento y cierre',
+  'Automatización para captar más con menos tiempo y esfuerzo operativo',
+  'Un sistema que no depende de la suerte ni de los referidos',
 ];
 
 const modulos = [
   {
     numero: '01',
     img: '/assets/modulos/01_modulo.jpeg',
-    titulo: 'De Cero a Flipper: Tu Primer Deal Inmobiliario en Tiempo Récord',
+    titulo: 'El negocio de la captación',
   },
   {
     numero: '02',
     img: '/assets/modulos/02_modulo.jpeg',
-    titulo: 'Hackeando el Mercado para Comprar Casas Baratas',
+    titulo: 'Análisis de oportunidades',
   },
   {
     numero: '03',
     img: '/assets/modulos/03_modulo.jpeg',
-    titulo: 'El Código del ROI: Cómo Detectar una Mina de Oro en 5 Minutos',
+    titulo: 'Herramientas para prospectar con IA',
   },
   {
     numero: '04',
     img: '/assets/modulos/04_modulo.jpeg',
-    titulo: 'Presupuestos Blindados: Maximiza tus Utilidades como un Experto',
+    titulo: 'El método de captación inteligente',
   },
   {
     numero: '05',
     img: '/assets/modulos/05_modulo.jpeg',
-    titulo: 'De Ruina a Diamante: Remodelaciones que Multiplican el Valor',
+    titulo: 'Negocia como experto y maneja objeciones a tu favor',
   },
   {
     numero: '06',
     img: '/assets/modulos/06_modulo.jpeg',
-    titulo: 'La Máquina de Cierres: Capta más Caro y sin Rebajas',
+    titulo: 'Perfilamiento que cierra',
   },
   {
     numero: '07',
     img: '/assets/modulos/07_modulo.jpeg',
-    titulo: 'Blinda tu Negocio: Estructura Legal y Financiera desde Cero',
+    titulo: 'Checklist y expediente del vendedor',
   },
   {
     numero: '08',
     img: '/assets/modulos/08_modulo.jpeg',
-    titulo: 'La Fórmula al Descubierto: Radiografía de Deals Reales de +$50K USD',
+    titulo: 'Revisión jurídica del expediente',
   },
   {
     numero: '09',
     img: '/assets/modulos/09_modulo.jpeg',
-    titulo: 'Flipping Sin Dinero: Cómo Invertir Usando Capital de Terceros',
+    titulo: 'Contrato de intermediación para blindar tus comisiones',
   },
   {
     numero: '10',
     img: '/assets/modulos/10_modulo.jpeg',
-    titulo: 'Rescate Estratégico: Ganancias con Casas Intestadas y Endeudadas',
-  },
-  {
-    numero: '11',
-    img: '/assets/modulos/11_modulo.jpeg',
-    titulo: 'Escala tu Negocio: De Flipper a CEO de tu Imperio Inmobiliario',
+    titulo: 'Estrategias de seguimiento para lograr el cierre',
   },
 ];
 
@@ -102,7 +97,7 @@ export default function QueHayDentro() {
           style={{ fontSize: 'clamp(2.5rem, 7vw, 5.5rem)' }}
         >
           ¿QUÉ HAY DENTRO DE{' '}
-          <span className="text-[#FF6B1A]">FÓRMULA FLIPPING</span>?
+          <span className="text-[#FF6B1A]">CAPTACIONES INFINITAS IA SYSTEM</span>?
         </motion.h2>
 
         {/* Lista de beneficios bullets */}
@@ -205,19 +200,19 @@ export default function QueHayDentro() {
           className="flex flex-col items-center gap-3 text-center max-w-3xl"
         >
           <p className="text-[#B8B8B8] text-sm md:text-base">
-            Fórmula Flipping™ funciona en{' '}
-            <strong className="text-white">cualquier ciudad de México y LATAM</strong>
+            Captaciones Infinitas IA System aplica en{' '}
+            <strong className="text-white">cualquier mercado inmobiliario</strong>
           </p>
           <p className="text-[#B8B8B8] text-sm md:text-base">
             Disponibilidad: <strong className="text-[#FF6B1A]">Inmediata</strong>
           </p>
           <p className="text-[#B8B8B8] text-sm md:text-base mt-2">
-            Está respaldado por nuestra{' '}
-            <strong className="text-white">Garantía FÓRMULA FLIPPING™</strong>
+            Respaldado por nuestra{' '}
+            <strong className="text-white">Garantía de 7 días</strong>
           </p>
           <p className="text-[#B8B8B8] text-sm md:text-base italic max-w-2xl">
-            Si no estás completamente satisfecho dentro de los primeros 7 días envíanos un
-            mensaje y te devolvemos cada centavo. Y te quedas con todo el contenido.
+            Si no estás completamente satisfecho dentro de los primeros 7 días, escríbenos
+            y te devolvemos el 100% de tu inversión. Sin preguntas incómodas.
           </p>
         </motion.div>
       </div>

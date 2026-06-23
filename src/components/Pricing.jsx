@@ -3,21 +3,25 @@ import { CONFIG } from '../config/constants';
 import CTAButton from './CTAButton';
 
 const VALUE_STACK = [
-  { label: 'Acceso al curso completo (12 módulos)', value: 497 },
-  { label: 'Acceso por 1 año completo', value: 200 },
-  { label: 'Comunidad WhatsApp activa', value: 97 },
-  { label: 'Estudios de casos prácticos reales', value: 150 },
-  { label: 'Estructura fiscal para flipping', value: 97 },
-  { label: 'Garantía de 7 días', value: null },
+  { label: 'Programa Principal — Captaciones Infinitas IA System (10 módulos)' },
+  { label: 'IA y Automatización aplicada a cada módulo' },
+  { label: 'Bono #1 — Gestión y Estructura de tu Negocio Inmobiliario' },
+  { label: 'Bono #2 — IANGE 360™ (Automatización y Gestión de Captaciones)' },
+  { label: 'Prompts especializados' },
+  { label: 'Herramientas recomendadas' },
+  { label: 'Plantillas de trabajo' },
+  { label: 'Casos prácticos' },
+  { label: 'Sistemas de seguimiento' },
+  { label: 'Estrategias de automatización' },
+  { label: 'Garantía de 7 días' },
 ];
-const TOTAL_VALUE = VALUE_STACK.reduce((s, i) => s + (i.value || 0), 0);
 
 export default function Pricing() {
   return (
     <section
       className="w-full py-20 md:py-32 px-4 md:px-8 bg-[#1A1A1A]"
       id="oferta"
-      aria-label="Precio y oferta del curso Fórmula Flipping"
+      aria-label="Precio y oferta de Captaciones Infinitas IA System"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -53,7 +57,7 @@ export default function Pricing() {
         >
           <img
             src="/assets/stack/lo_que_obtienes.png"
-            alt="Todo lo que obtienes con Fórmula Flipping"
+            alt="Todo lo que obtienes con Captaciones Infinitas IA System"
             className="w-full h-auto rounded-2xl"
             style={{ filter: 'drop-shadow(0 0 60px rgba(255,107,26,0.25))' }}
             onError={(e) => { e.target.style.display = 'none'; }}
@@ -85,7 +89,7 @@ export default function Pricing() {
                   <span className="text-[#B8B8B8] text-sm md:text-base">{item.label}</span>
                 </div>
                 <span className="text-[#FF6B1A] font-bold text-sm md:text-base whitespace-nowrap flex-shrink-0">
-                  {item.value ? `$${item.value} USD` : 'Sin costo'}
+                  INCLUIDO
                 </span>
               </motion.div>
             ))}
@@ -93,9 +97,9 @@ export default function Pricing() {
               className="flex items-center justify-between mt-4 pt-4"
               style={{ borderTop: '2px solid rgba(255,107,26,0.3)' }}
             >
-              <span className="font-bebas text-white text-xl">VALOR TOTAL:</span>
-              <span className="font-bebas text-[#B8B8B8] text-2xl line-through">
-                ${TOTAL_VALUE.toLocaleString()} USD
+              <span className="font-bebas text-white text-xl">PRECIO DE LANZAMIENTO:</span>
+              <span className="font-bebas text-[#FF6B1A] text-2xl">
+                ${CONFIG.PRECIO_ACTUAL} USD
               </span>
             </div>
           </motion.div>

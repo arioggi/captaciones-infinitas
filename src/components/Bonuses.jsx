@@ -4,20 +4,32 @@ const bonos = [
   {
     numero: '#1',
     img: '/assets/bonos/01_bonus.png',
-    titulo: 'Caja de Herramientas del Flipper',
-    valor: '$797 USD',
+    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
+    subtitulo: 'Construye una inmobiliaria profesional, rentable y escalable.',
     descripcion: (
       <>
         <p>
-          Tendrás acceso a la <strong>caja de herramientas</strong> completa que uso en cada
-          operación: contratos, checklists, plantillas de Excel, calculadoras de rentabilidad
-          y guías paso a paso.
+          La mayoría de los asesores aprende a vender. Muy pocos aprenden a construir una empresa.
+          Basado en el <strong>Ciclo Inmobiliario completo</strong>, aprenderás a desarrollar una
+          estructura sólida que soporte el crecimiento de tu negocio.
         </p>
-        <p>
-          15 recursos descargables que normalmente cuestan miles de pesos por separado.
-        </p>
-        <p className="font-bold">
-          Recibes Esto Cuando Compras Tu Copia De "Fórmula Flipping" hoy!
+        <ul className="flex flex-col gap-1 mt-2 text-sm">
+          {[
+            'Cómo funciona el ciclo inmobiliario completo',
+            'Estructura interna de una inmobiliaria profesional',
+            'Procesos operativos y control administrativo',
+            'Cultura organizacional y liderazgo',
+            'Mentalidad empresarial y finanzas básicas para inmobiliarios',
+            'Marco legal básico e indicadores de crecimiento',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="text-[#E55A0A] font-bold flex-shrink-0">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="font-bold mt-3">
+          Incluido en tu acceso a Captaciones Infinitas IA System hoy.
         </p>
       </>
     ),
@@ -25,20 +37,32 @@ const bonos = [
   {
     numero: '#2',
     img: '/assets/bonos/02_bonus.png',
-    titulo: 'Plan de Negocios para Inversionistas',
-    valor: '$497 USD',
+    titulo: 'IANGE 360™',
+    subtitulo: 'Automatiza y escala tus captaciones con Inteligencia Artificial.',
     descripcion: (
       <>
         <p>
-          En este bonus por comprar hoy, vas a recibir un <strong>plan de negocios completo</strong>{' '}
-          listo para presentar a inversionistas privados.
+          IANGE no es solo un CRM. Es un <strong>ecosistema inmobiliario</strong> que integra
+          captación, marketing, seguimiento, operación, administración, automatización e IA,
+          todo en una sola plataforma.
         </p>
-        <p>
-          El objetivo: que puedas levantar capital sin usar tu propio dinero y arrancar tu
-          primera operación de flipping en menos de 30 días.
-        </p>
-        <p className="font-bold">
-          Recibes Esto Cuando Compras Tu Copia De "Fórmula Flipping" hoy!
+        <ul className="flex flex-col gap-1 mt-2 text-sm">
+          {[
+            'Organización de prospectos y propietarios',
+            'Administración de captaciones y seguimiento automatizado',
+            'Gestión de expedientes y operaciones',
+            'Control comercial y métricas',
+            'Automatización de procesos repetitivos',
+            'Sistemas para evitar la fuga de oportunidades',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="text-[#E55A0A] font-bold flex-shrink-0">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="font-bold mt-3">
+          Incluido en tu acceso a Captaciones Infinitas IA System hoy.
         </p>
       </>
     ),
@@ -46,21 +70,32 @@ const bonos = [
   {
     numero: '#3',
     img: '/assets/bonos/03_bonus.png',
-    titulo: 'Comunidad WhatsApp Exclusiva',
-    valor: '$297 USD',
+    titulo: 'Comunidad de WhatsApp para Dudas y Estrategias',
+    subtitulo: 'La comunidad que te acompaña, te respalda y te hace crecer cada día.',
     descripcion: (
       <>
         <p>
-          En este bonus especial por comprar hoy, te enseñaré cómo aprovechar la{' '}
-          <strong>comunidad privada de WhatsApp</strong> con +4,605 alumnos activos...
+          Accede a una <strong>comunidad activa 24/7</strong> con más de{' '}
+          <strong>4,605 miembros</strong> donde resolverás dudas en tiempo real,
+          compartirás estrategias probadas y aprenderás de casos reales de otros asesores.
         </p>
-        <p>
-          Donde compartimos oportunidades, validamos operaciones y resolvemos dudas todos
-          los días.
-        </p>
-        <p>De hecho, esta es la red que puede cambiar tu juego más rápido que el curso mismo.</p>
-        <p className="font-bold">
-          Recibes Esto Cuando Compras Tu Copia De "Fórmula Flipping" hoy!
+        <ul className="flex flex-col gap-1 mt-2 text-sm">
+          {[
+            'Resuelve dudas en tiempo real',
+            'Estrategias que sí funcionan',
+            'Casos reales y experiencias de otros asesores',
+            'Materiales y recursos exclusivos',
+            'Motivación diaria para seguir creciendo',
+            'Networking con asesores como tú',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="text-[#E55A0A] font-bold flex-shrink-0">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="font-bold mt-3">
+          Incluido en tu acceso a Captaciones Infinitas IA System hoy.
         </p>
       </>
     ),
@@ -103,14 +138,14 @@ export default function Bonuses() {
             style={{ fontSize: 'clamp(2rem, 6vw, 4.5rem)' }}
           >
             DESBLOQUEA ACCESO INMEDIATO A{' '}
-            <span className="text-[#FF6B1A]">3 BONOS ADICIONALES</span>{' '}
+            <span className="text-[#FF6B1A]">3 BONOS ESPECIALES</span>{' '}
             ¡GRATIS!
           </motion.h2>
 
           {/* Imagen stack completo "CON TU PEDIDO HOY" */}
           <motion.img
             src="/assets/stack/stack_completo.png"
-            alt="Todo lo que incluye Fórmula Flipping"
+            alt="Todo lo que incluye Captaciones Infinitas IA System"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -153,11 +188,11 @@ export default function Bonuses() {
               <div className="px-6 md:px-10 py-8 md:py-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
                 <div className="flex flex-col gap-4 text-[#1A1A1A] text-base md:text-lg leading-relaxed">
                   {bono.descripcion}
-                  <div className="mt-2 inline-block">
-                    <span className="font-bebas text-[#E55A0A] text-2xl md:text-3xl">
-                      Valor: {bono.valor}
-                    </span>
-                  </div>
+                  {bono.subtitulo && (
+                    <p className="font-bebas text-[#E55A0A] text-xl md:text-2xl mt-1">
+                      {bono.subtitulo}
+                    </p>
+                  )}
                 </div>
 
                 <div className="flex justify-center items-center">

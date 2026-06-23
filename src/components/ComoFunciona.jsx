@@ -23,7 +23,7 @@ export default function ComoFunciona() {
           className="inline-block px-10 md:px-14 py-4 md:py-5 rounded-full border-2 border-[#FF6B1A] bg-[#FF6B1A]/10"
         >
           <span className="font-bebas text-[#FF6B1A] tracking-[0.25em] text-lg md:text-2xl">
-            EL MÉTODO PROBADO
+            EL SISTEMA COMPLETO
           </span>
         </motion.div>
 
@@ -36,68 +36,82 @@ export default function ComoFunciona() {
           className="font-bebas text-white leading-tight"
           style={{ fontSize: 'clamp(2rem, 6vw, 4.5rem)' }}
         >
-          ¿CÓMO FUNCIONA LA{' '}
-          <span className="text-[#FF6B1A]">FÓRMULA FLIPPING</span>?
+          UN SISTEMA DE{' '}
+          <span className="text-[#FF6B1A]">TRES CAPAS</span>{' '}
+          QUE TRABAJAN JUNTAS
         </motion.h2>
 
-        {/* Cuerpo */}
+        {/* Cards de capas */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex flex-col gap-6 text-[#B8B8B8] leading-relaxed text-left md:text-center"
+          className="w-full flex flex-col gap-6 text-left"
+        >
+          {[
+            {
+              numero: '01',
+              titulo: 'Fundamentos de Captación Profesional',
+              texto: 'El proceso completo que usan los asesores más exitosos para generar inventario de forma constante. Desde el análisis de oportunidades hasta el seguimiento y cierre.',
+            },
+            {
+              numero: '02',
+              titulo: 'Inteligencia Artificial Aplicada',
+              texto: 'Cómo usar IA en cada etapa: investigar, analizar, prospectar, perfilar propietarios, preparar expedientes y generar materiales para mejorar tus resultados.',
+            },
+            {
+              numero: '03',
+              titulo: 'Automatización de Procesos',
+              texto: 'Cómo reducir trabajo operativo, optimizar tiempos y crear sistemas para captar más propiedades con menos esfuerzo.',
+            },
+          ].map((capa, i) => (
+            <motion.div
+              key={capa.numero}
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.12 }}
+              className="rounded-2xl p-6 md:p-8 flex gap-5 items-start"
+              style={{
+                background: '#1A1A1A',
+                border: '1px solid rgba(255,107,26,0.2)',
+              }}
+            >
+              <span
+                className="font-bebas text-5xl md:text-6xl leading-none flex-shrink-0"
+                style={{ color: 'rgba(255,107,26,0.25)' }}
+              >
+                {capa.numero}
+              </span>
+              <div className="flex flex-col gap-2">
+                <h3
+                  className="font-bebas text-[#FF6B1A] tracking-wide"
+                  style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.6rem)' }}
+                >
+                  CAPA {capa.numero} — {capa.titulo}
+                </h3>
+                <p className="text-[#B8B8B8] leading-relaxed" style={{ fontSize: 'clamp(0.95rem, 1.8vw, 1.1rem)' }}>
+                  {capa.texto}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+
+        {/* Cierre */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="text-[#B8B8B8] leading-relaxed text-center max-w-2xl"
           style={{ fontSize: 'clamp(1rem, 2.2vw, 1.15rem)' }}
         >
-          <p>
-            Si has probado distintas maneras de hacer dinero con bienes raíces,
-            pero sabes que tiene que haber una manera más fácil — tienes razón.
-          </p>
-
-          <p>
-            <strong className="text-white">Fórmula Flipping</strong> está diseñada para ser una manera más{' '}
-            <strong className="text-white">simple</strong>,{' '}
-            <strong className="text-white">más rentable</strong> y{' '}
-            <strong className="text-white">más segura</strong> de invertir — que genera utilidades reales
-            sin perseguir oportunidades imposibles.
-          </p>
-
-          <p>
-            A diferencia de buscar propiedades casa por casa, depender solo de tu capital,
-            o esperar años a que una propiedad se aprecie...
-          </p>
-
-          <p>
-            <strong className="text-[#FF6B1A]">Fórmula Flipping</strong> usa una metodología probada en
-            <strong className="text-white"> +1,000 operaciones reales</strong> para encontrar, negociar,
-            remodelar y vender propiedades con utilidades de{' '}
-            <strong className="text-white">$30,000 a $80,000 USD por operación</strong>.
-          </p>
-
-          <p>
-            Este sistema es la manera contraintuitiva que va a ayudarte a generar riqueza con bienes raíces
-            mientras te posicionas como un inversionista serio en tu ciudad.
-          </p>
-
-          <p>
-            <strong className="text-white">Hacemos todo lo contrario a lo que dicen los gurús o los youtubers de bienes raíces.</strong>
-          </p>
-
-          <p>
-            Usamos propiedades reales con potencial real, pero recuperamos el control de las manos
-            del mercado tradicional.
-          </p>
-
-          <p>
-            Invertimos en inmuebles, pero no nos importan las "modas", las "tendencias", ni las
-            métricas vacías.
-          </p>
-
-          <p>
-            Así es como nuestros alumnos pueden generar mucho más capital que cualquier inversionista
-            tradicional que sigue las reglas de siempre.
-          </p>
-        </motion.div>
+          Las tres capas trabajan al mismo tiempo durante todo el programa. Esa combinación
+          es lo que convierte la captación en un{' '}
+          <strong className="text-white">sistema predecible</strong>.
+        </motion.p>
 
         {/* Línea decorativa final */}
         <motion.div

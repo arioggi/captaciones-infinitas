@@ -3,17 +3,17 @@ export const CONFIG = {
   META_PIXEL_ID: '1612385910116273',
 
   // Links — reemplazar REEMPLAZAR_AQUI con tu link real de Hotmart
-  LINK_HOTMART: 'https://pay.hotmart.com/U99540900V?off=pursgw9c&bid=1778999758622',
+  LINK_HOTMART: 'https://pay.hotmart.com/C106313976P',
   LINK_LINKTREE: 'https://youtube.com/playlist?list=PLj_NAnLjcNYfNTAuG0MFMm1iXt0IcU1Db&si=UZxh63Bi-jLcerBo',
 
   // Videos YouTube
-  VSL_VIDEO_ID: 'RHlW14YeXtM',
+  VSL_VIDEO_ID: 'iUojQZHIMPY',
   TESTIMONIO_VIDEO_ID: '53cvJvlEHMU',
 
   // Datos del curso
   TOTAL_ALUMNOS: 4605,
-  PRECIO_NORMAL: 249,
-  PRECIO_ACTUAL: 148.96,
+  PRECIO_NORMAL: 246.90,
+  PRECIO_ACTUAL: 169.80,
   MONEDA: 'USD',
 
   // Garantía y acceso
