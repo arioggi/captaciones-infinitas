@@ -3,39 +3,6 @@ import { motion } from 'framer-motion';
 const bonos = [
   {
     numero: '#1',
-    img: '/assets/bonos/01_bonus.png',
-    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
-    subtitulo: 'Construye una inmobiliaria profesional, rentable y escalable.',
-    descripcion: (
-      <>
-        <p>
-          La mayoría de los asesores aprende a vender. Muy pocos aprenden a construir una empresa.
-          Basado en el <strong>Ciclo Inmobiliario completo</strong>, aprenderás a desarrollar una
-          estructura sólida que soporte el crecimiento de tu negocio.
-        </p>
-        <ul className="flex flex-col gap-1 mt-2 text-sm">
-          {[
-            'Cómo funciona el ciclo inmobiliario completo',
-            'Estructura interna de una inmobiliaria profesional',
-            'Procesos operativos y control administrativo',
-            'Cultura organizacional y liderazgo',
-            'Mentalidad empresarial y finanzas básicas para inmobiliarios',
-            'Marco legal básico e indicadores de crecimiento',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-2">
-              <span className="text-[#E55A0A] font-bold flex-shrink-0">•</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="font-bold mt-3">
-          Incluido en tu acceso a Captaciones Infinitas IA System hoy.
-        </p>
-      </>
-    ),
-  },
-  {
-    numero: '#2',
     img: '/assets/bonos/02_bonus.png',
     titulo: 'IANGE 360™',
     subtitulo: 'Automatiza y escala tus captaciones con Inteligencia Artificial.',
@@ -68,6 +35,39 @@ const bonos = [
     ),
   },
   {
+    numero: '#2',
+    img: '/assets/bonos/01_bonus.png',
+    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
+    subtitulo: 'Construye una inmobiliaria profesional, rentable y escalable.',
+    descripcion: (
+      <>
+        <p>
+          La mayoría de los asesores aprende a vender. Muy pocos aprenden a construir una empresa.
+          Basado en el <strong>Ciclo Inmobiliario completo</strong>, aprenderás a desarrollar una
+          estructura sólida que soporte el crecimiento de tu negocio.
+        </p>
+        <ul className="flex flex-col gap-1 mt-2 text-sm">
+          {[
+            'Cómo funciona el ciclo inmobiliario completo',
+            'Estructura interna de una inmobiliaria profesional',
+            'Procesos operativos y control administrativo',
+            'Cultura organizacional y liderazgo',
+            'Mentalidad empresarial y finanzas básicas para inmobiliarios',
+            'Marco legal básico e indicadores de crecimiento',
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-2">
+              <span className="text-[#E55A0A] font-bold flex-shrink-0">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="font-bold mt-3">
+          Incluido en tu acceso a Captaciones Infinitas IA System hoy.
+        </p>
+      </>
+    ),
+  },
+  {
     numero: '#3',
     img: '/assets/bonos/03_bonus.png',
     titulo: 'Comunidad de WhatsApp para Dudas y Estrategias',
@@ -75,8 +75,8 @@ const bonos = [
     descripcion: (
       <>
         <p>
-          Accede a una <strong>comunidad activa 24/7</strong> con más de{' '}
-          <strong>4,605 miembros</strong> donde resolverás dudas en tiempo real,
+          Accede a una <strong>comunidad activa 24/7</strong> de{' '}
+          <strong>Whatsapp</strong> donde resolverás dudas en tiempo real,
           compartirás estrategias probadas y aprenderás de casos reales de otros asesores.
         </p>
         <ul className="flex flex-col gap-1 mt-2 text-sm">

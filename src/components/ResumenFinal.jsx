@@ -5,17 +5,17 @@ import CTAButton from './CTAButton';
 const bonos = [
   {
     numero: '#1',
-    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
-    img: '/assets/bonos/01_bonus.png',
-    descripcion:
-      'Aprende a construir una inmobiliaria profesional y escalable. Basado en el Ciclo Inmobiliario completo: estructura interna, procesos operativos, liderazgo, finanzas y marco legal.',
-  },
-  {
-    numero: '#2',
     titulo: 'IANGE 360™',
     img: '/assets/bonos/02_bonus.png',
     descripcion:
       'Ecosistema inmobiliario que integra captación, marketing, seguimiento, operación, administración, automatización e IA en una sola plataforma. Para captar más con menos esfuerzo operativo.',
+  },
+  {
+    numero: '#2',
+    titulo: 'Gestión y Estructura de tu Negocio Inmobiliario',
+    img: '/assets/bonos/01_bonus.png',
+    descripcion:
+      'Aprende a construir una inmobiliaria profesional y escalable. Basado en el Ciclo Inmobiliario completo: estructura interna, procesos operativos, liderazgo, finanzas y marco legal.',
   },
   {
     numero: '#3',

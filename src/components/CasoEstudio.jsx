@@ -47,7 +47,7 @@ export default function CasoEstudio() {
           className="inline-block px-10 md:px-14 py-4 md:py-5 rounded-full border-2 border-[#FF6B1A] bg-[#FF6B1A]/10"
         >
           <span className="font-bebas text-[#FF6B1A] tracking-[0.25em] text-lg md:text-2xl">
-            CASO DE ESTUDIO REAL
+            CON MI METODOLOGÍA
           </span>
         </motion.div>
 
@@ -60,9 +60,8 @@ export default function CasoEstudio() {
           className="font-bebas text-white leading-tight"
           style={{ fontSize: 'clamp(2rem, 6vw, 4.5rem)' }}
         >
-          INSTALANDO LA <span className="text-[#FF6B1A]">FÓRMULA FLIPPING</span>
-          <br />
-          EN 3 INVERSIONISTAS INMOBILIARIOS
+          DESDE ASESORES HASTA{' '}
+          <span className="text-[#FF6B1A]">DUEÑOS DE INMOBILIARIAS</span>
         </motion.h2>
 
         {/* Intro */}
@@ -76,16 +75,11 @@ export default function CasoEstudio() {
         >
           <p>
             A lo largo de los años, profesionales del sector inmobiliario en México
-            han aplicado la Fórmula Flipping para transformar la manera en que
+            han aplicado mi metodología para transformar la manera en que
             estructuran sus operaciones.
           </p>
           <p className="text-white font-bold">
             Estos son algunos de los resultados:
-          </p>
-          <p>
-            Desde realtors con años de experiencia hasta personas que empezaron en
-            cero, todos lograron{' '}
-            <span className="text-[#FF6B1A] font-bold">despegar con una metodología clara y probada</span>.
           </p>
         </motion.div>
 

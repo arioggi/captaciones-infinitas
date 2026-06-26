@@ -91,14 +91,13 @@ export default function Hero({ onUnlock, isUnlocked }) {
           <motion.h1
             animate={{ scale: [1, 1.015] }}
             transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
-            className="font-bebas text-white leading-none"
-            style={{ fontSize: 'clamp(2.8rem, 9vw, 7rem)' }}
+            className="font-bebas text-white leading-tight"
+            style={{ fontSize: 'clamp(2rem, 5.5vw, 4.5rem)' }}
           >
-            CAPTA MÁS PROPIEDADES CON UN SISTEMA DE{' '}
+            CAPTA MÁS PROPIEDADES CON UN SISTEMA QUE INCLUYE{' '}
             <span className="text-[#FF6B1A]" style={{ textShadow: '0 0 40px rgba(255,107,26,0.5)' }}>
-              INTELIGENCIA ARTIFICIAL
+              MÉTODO, IA Y AUTOMATIZACIÓN
             </span>
-            , MÉTODO INMOBILIARIO Y AUTOMATIZACIÓN
           </motion.h1>
         </motion.div>
 
