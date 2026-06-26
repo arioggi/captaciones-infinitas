@@ -78,7 +78,7 @@ const bonos = [
           Accede a una <strong>comunidad activa 24/7</strong> de{' '}
           <strong>Whatsapp</strong> donde resolverás dudas en tiempo real,
           compartirás estrategias probadas y aprenderás de casos reales de otros asesores.
-        </p>
+        </p>2
         <ul className="flex flex-col gap-1 mt-2 text-sm">
           {[
             'Resuelve dudas en tiempo real',

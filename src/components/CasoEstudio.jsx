@@ -47,7 +47,7 @@ export default function CasoEstudio() {
           className="inline-block px-10 md:px-14 py-4 md:py-5 rounded-full border-2 border-[#FF6B1A] bg-[#FF6B1A]/10"
         >
           <span className="font-bebas text-[#FF6B1A] tracking-[0.25em] text-lg md:text-2xl">
-            CON MI METODOLOGÍA
+            CASO DE ESTUDIO REAL
           </span>
         </motion.div>
 

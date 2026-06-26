@@ -37,7 +37,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
           <span className="inline-block font-bebas text-[#FF6B1A] tracking-[0.3em] text-lg md:text-2xl bg-[#FF6B1A]/10 border-2 border-[#FF6B1A] px-10 md:px-14 py-4 md:py-5 rounded-full mb-6">
-            RESULTADOS REALES
+            CON MI METODOLOGÍA
           </span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
